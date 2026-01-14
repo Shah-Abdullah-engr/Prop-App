@@ -1,3 +1,4 @@
+
 function Student(props){
   return(
     <div>
@@ -6,7 +7,14 @@ function Student(props){
       <p>Roll No : {props.roll_no}</p>
     </div>
   );
-
-
 } 
+// Student.propTypes = {
+//   name:propTypes.string,
+//   age:propTypes.number,
+// }
+// Student.defaultProps={
+//   name:"Guest",
+//   age:0,
+//   roll_no:0,
+// }
 export default Student 
