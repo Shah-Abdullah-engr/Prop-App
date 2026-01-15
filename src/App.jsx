@@ -2,7 +2,7 @@
 // import Student from "./student";
 // import Counter from "./counter";
 import { useState } from "react";
-import Child from "./child";
+import Child from "./components/child";
  
 
 function App(){
